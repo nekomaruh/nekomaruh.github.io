@@ -48875,7 +48875,7 @@ a.Y(r).f.a.a
 a.Y(r).f.a.a
 return M.l6(s,T.vP(H.d([L.ZH("Full Stack Android, iOS, Desktop & Web (PWA) developer.\n\nI help brands to turn their ideas into real high quality products, simply coding.",A.iV(s,s,C.ty,s,s,s,s,s,s,s,s,20,s,s,s,s,!0,s,s,s,s,s,s),s),T.hv(s,50,s),new T.jn(C.rl,s,s,new S.xU("Contact me",new Z.KR(this),s),s)],t.fQ)),s,s,new S.ej(C.c8,s,s,new K.c5(C.K,new P.bp(0,0),C.K,new P.bp(0,0)),s,s,C.az),s,s,q,1/0)},
 At:function(a){var s=null,r=H.d(["UI/UX design","Cross-platform\ndevelopment"],t.i)
-return M.l6(s,new M.rh(r,A.iV(s,s,C.j,s,s,s,s,s,s,s,s,a.Y(t.w).f.a.a<500?45:60,s,C.eT,s,s,!0,s,s,s,s,s,s),P.c6(0,150),new Z.KS(),C.b_,!0,s),s,s,s,240,s,s,s)},
+return M.l6(s,new M.rh(r,A.iV(s,s,C.j,s,s,s,s,s,s,s,s,a.Y(t.w).f.a.a<500?40:60,s,C.eT,s,s,!0,s,s,s,s,s,s),P.c6(0,150),new Z.KS(),C.b_,!0,s),s,s,s,200,s,s,s)},
 N:function(a,b){var s=this,r=null,q=t.fQ
 return b.Y(t.w).f.a.a<850?new T.fs(C.uQ,T.vP(H.d([s.At(b),s.yJ(b)],q)),r):M.l6(r,new T.zs(C.k,C.mj,C.mk,C.la,r,C.fZ,r,H.d([T.JF(s.yJ(b),5),T.JF(T.hv(r,r,r),1),T.JF(s.At(b),4),T.JF(T.hv(r,r,r),1)],q),r),r,r,r,r,new V.aP(0,60,0,60),r,r)}}
 Z.KR.prototype={
