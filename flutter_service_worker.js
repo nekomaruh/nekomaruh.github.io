@@ -4,15 +4,15 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "42f5fcbd3ce35513b3f9d3f9b6f06b4e",
-"index.html": "bbf63c54fc7153d599934e3c68e3244a",
-"/": "bbf63c54fc7153d599934e3c68e3244a",
-"main.dart.js": "150fb87f65a92f165a88e3ed350de97c",
+"index.html": "c380ce32f887af3488e8121c188aab9a",
+"/": "c380ce32f887af3488e8121c188aab9a",
+"main.dart.js": "ae6330e41018c128c93e47575d65506e",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "913431296e30396ab61e0c3b7c33964c",
-"assets/AssetManifest.json": "4ed06c28eca975c1508f1bdbd576fe5a",
-"assets/NOTICES": "a0f4f5fcb3f99523c1658b6db52ec83d",
+"assets/AssetManifest.json": "1eeb042a8ae70982aba1542b99ede991",
+"assets/NOTICES": "27eaa3fa41c8a288b4abee698f0808c8",
 "assets/img/pandas_logo.png": "3e24eae8fad8a41694ab1cd447fb2bb2",
 "assets/img/patreon_logo.png": "9067975c2a4224cafd185dd21202882d",
 "assets/img/javascript_logo.png": "f00708cb380288f97a3fbfa72862ce1b",
@@ -46,7 +46,7 @@ const RESOURCES = {
 "assets/img/powerbi_logo.png": "ed1e96ea5e37f9f0f0fe2ed7f21217fa",
 "assets/img/cpp_logo.png": "8f42e018a9340b6e4e20161b06525308",
 "assets/img/java_logo.png": "b855d7da2db5d7f73fd3eb7c9a961660",
-"assets/FontManifest.json": "7aaf3996738086bbd796613e14ef9e45",
+"assets/FontManifest.json": "572dce6693cd94657498ab3d9ab100a6",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "b14fcf3ee94e3ace300b192e9e7c8c5d",
 "assets/packages/flutter_icons/fonts/Octicons.ttf": "73b8cff012825060b308d2162f31dbb2",
 "assets/packages/flutter_icons/fonts/Feather.ttf": "6beba7e6834963f7f171d3bdd075c915",
@@ -64,6 +64,8 @@ const RESOURCES = {
 "assets/packages/flutter_icons/fonts/EvilIcons.ttf": "140c53a7643ea949007aa9a282153849",
 "assets/packages/flutter_icons/fonts/SimpleLineIcons.ttf": "d2285965fe34b05465047401b8595dd0",
 "assets/packages/flutter_icons/fonts/MaterialIcons.ttf": "a37b0c01c0baf1888ca812cc0508f6e2",
+"assets/fonts/averta/AvertaDemo-ExtraBoldItalic.otf": "5fb8ef601db905aab0fd6672a76f4424",
+"assets/fonts/averta/AvertaDemo-Regular.otf": "9cd8189186d13a06f790d5464049866a",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac"
 };
 
