@@ -3,16 +3,16 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "42f5fcbd3ce35513b3f9d3f9b6f06b4e",
-"index.html": "4ff51cc6a4b1238711ab89ab25e8efd3",
-"/": "4ff51cc6a4b1238711ab89ab25e8efd3",
-"main.dart.js": "2924ae902651bea7de6da5cdca72f6ed",
+  "version.json": "ba99d13bf4f6e30dbc1d10900b114253",
+"index.html": "e9f716a17fdf94e5b483570e1570118b",
+"/": "e9f716a17fdf94e5b483570e1570118b",
+"main.dart.js": "1367feac0b1b0e2167363f6045d9fb38",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "913431296e30396ab61e0c3b7c33964c",
 "assets/AssetManifest.json": "1eeb042a8ae70982aba1542b99ede991",
-"assets/NOTICES": "800d9405b2d8b03943efa5431b0c8ad0",
+"assets/NOTICES": "f74bb837ec802dd4bee2dcc4de682398",
 "assets/FontManifest.json": "825e58cce6b15bc75ec9c4184a7cb70b",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "b14fcf3ee94e3ace300b192e9e7c8c5d",
 "assets/packages/flutter_icons/fonts/Octicons.ttf": "73b8cff012825060b308d2162f31dbb2",
@@ -33,7 +33,11 @@ const RESOURCES = {
 "assets/packages/flutter_icons/fonts/MaterialIcons.ttf": "a37b0c01c0baf1888ca812cc0508f6e2",
 "assets/fonts/averta/AvertaDemo-ExtraBoldItalic.otf": "5fb8ef601db905aab0fd6672a76f4424",
 "assets/fonts/averta/AvertaDemo-Regular.otf": "9cd8189186d13a06f790d5464049866a",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac"
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
+"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -51,7 +55,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
