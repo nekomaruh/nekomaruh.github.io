@@ -1,11 +1,11 @@
 {
-    "name": "webpage2023",
-    "short_name": "webpage2023",
+    "name": "webpage2024",
+    "short_name": "webpage2024",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Portfolio website",
+    "description": "Portfolio Website",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
