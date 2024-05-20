@@ -709,7 +709,6 @@ _1886: s => {
       }
       return stringToDartString(jsString);
     },
-_1888: x0 => x0.input,
 _1889: x0 => x0.index,
 _1890: x0 => x0.groups,
 _1891: x0 => x0.length,
