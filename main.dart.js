@@ -96808,7 +96808,7 @@ $S:0}
 A.Sk.prototype={
 G(a){return A.lk(A.D3(A.eI(B.a0Y,null,null,null),B.Zi,new A.al9()),"See Resume")}}
 A.al9.prototype={
-$0(){A.j1("https://res.cloudinary.com/doqebrksl/image/upload/v1722872935/portfolio/cv/cv_ago24_dkfqoi.pdf")},
+$0(){A.j1("https://res.cloudinary.com/doqebrksl/image/upload/v1722881972/portfolio/cv/cv_ago24_kcjirk.pdf")},
 $S:0}
 A.o6.prototype={
 G(a){var s=null,r=A.T(a).fr
